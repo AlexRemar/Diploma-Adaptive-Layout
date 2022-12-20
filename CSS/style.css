@@ -900,6 +900,36 @@ nav {
   visibility: hidden;
 }
 
+.radio-group-text {
+  margin-right: 16px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+
+.form-hint {
+  font-size: 13px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+.form-email {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+.recipe-text { 
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+
 .popup {
   display: flex;
   flex-direction: column;
@@ -916,6 +946,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .cross-wrapper {
@@ -990,6 +1021,8 @@ select:focus {
 textarea:focus {
   border-color: #b59f5b;
 }
+
+
 
 .radio-wrapper {
   display: flex;
@@ -1980,6 +2013,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .cross-wrapper {
@@ -2020,7 +2054,7 @@ nav {
 .form-time {
   background-image: url(../SVG/form-arrows.svg);
   background-repeat: no-repeat;
-  background-size: 15px;
+  background-size: 10px;
   background-position: center right 15px;
 }
 
@@ -2035,6 +2069,36 @@ select {
   display: flex;
   flex-direction: column;
 }
+
+.radio-group-text {
+  margin-right: 16px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+
+.form-hint {
+  font-size: 13px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+.form-email {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+.recipe-text { 
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
 
 .form-time {
   display: flex;
@@ -3011,6 +3075,7 @@ textarea:focus {
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .cross-wrapper {
@@ -3048,12 +3113,7 @@ textarea:focus {
   justify-content: center;
 }
 
-.form-time {
-  background-image: url(../SVG/form-arrows.svg);
-  background-repeat: no-repeat;
-  background-size: 15px;
-  background-position: center right 15px;
-}
+
 
 select {
   -webkit-appearance: none;
@@ -3076,8 +3136,14 @@ select {
   margin-bottom: 30px;
   margin-top: 12px;
   padding-left: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+  background-image: url(../SVG/form-arrows.svg);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center right 15px;
 }
-
 
 
 select:focus {
@@ -3098,9 +3164,6 @@ textarea:focus {
   display: none;
 }
 
-.radio-group-text {
-  margin-right: 16px;
-}
 
 .radio-group-text::before {
   content: "";
@@ -3115,6 +3178,35 @@ textarea:focus {
   margin-right: 5px;
 }
 
+.radio-group-text {
+  margin-right: 16px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+
+.form-hint {
+  font-size: 13px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+.form-email {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
+.recipe-text { 
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "OpenSans-R";
+}
+
 
 .radio-group-control:checked + .radio-group-text::before {
   background-image: url(../SVG/form-circle.svg);
@@ -3126,9 +3218,6 @@ textarea:focus {
   flex-direction: column;
 }
 
-.recipe-text { 
-  margin-bottom: 10px;
-}
 
 .field {
   width: 330px;
