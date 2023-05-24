@@ -1,4 +1,4 @@
-# Дипломный проект: Вёрстка макета сайта ||
+# Дипломный проект: Вёрстка макета сайта 
 Применение навыков:
 HTML5 //
 CSS //
@@ -15,7 +15,7 @@ Photoshop //
 https://github.com/netology-code/html-2-diploma ||
 https://github.com/netology-code/mq-diploma
 
-# Graduation project: Layout layout of the site ||
+# Graduation project: Layout layout of the site 
 Applying skills:
 HTML5 //
 CSS //
